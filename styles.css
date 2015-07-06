@@ -1,0 +1,76 @@
+body{
+background-color: #E0E6F8;
+font-size: 1.5vw;
+}
+
+#content{
+	margin: 10%;
+	overflow: auto;
+}
+
+#content div{
+	display: inline-block;
+	float: left;
+}
+
+#buttons{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	width: 30%;
+	background-color: grey;
+
+}
+
+#buttons p{
+	text-indent: 10%;
+	color: white;
+}
+#buttons a{
+	padding: 2px;
+	display: block;
+	text-indent: 20%;
+	color: blue;
+}
+a:hover{
+	opacity: 0.5;
+} 
+
+#table{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	width: 70%;
+}
+
+table{
+	width:100%;
+	/* border-spacing: 2; */
+	border: 0;
+	border-collapse: collapse;
+}
+
+thead{
+	background-color: lightgrey;
+	text-align: left;
+}
+
+td, th{
+	padding: 3%;
+	text-align: center;
+}
+
+tbody{
+	
+	background-color: white;
+}
+
+
+.naziv{
+	width: 60%;
+	text-align: left;
+}
+.cijena{
+	width: 20%;
+}
+.kolicina{
+	width: 20%;
+}
